@@ -8,6 +8,7 @@ FROM websphere-liberty:webProfile7
 #BINARIES: Add in all necessary application binaries
 COPY ./server.xml /config
 COPY ./data/examples/* /config/apps/
+ls ./data/example/
 
 
 #FEATURES: Install any features that are required
